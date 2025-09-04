@@ -57,14 +57,14 @@ Esta aplicação gera um gráfico de barras interativo a partir de uma consulta 
     LOG_REGEX="(?U)^\[[a-zA-Z]{3} (?P<time>.+)\] .+"
     ```
 
-3. **Instale as dependências:**
+4. **Instale as dependências:**
 
     ```bash
     npm ci
     go mod tidy
     ```
 
-4. **Execute a aplicação:**
+5. **Execute a aplicação:**
     * Com `go run`:
 
         ```bash
@@ -78,7 +78,7 @@ Esta aplicação gera um gráfico de barras interativo a partir de uma consulta 
         ./dist/grapher
         ```
 
-5. **Acesse a aplicação** em seu navegador: `http://localhost:6060`
+6. **Acesse a aplicação** em seu navegador: `http://localhost:6060`
 
 ## API
 
